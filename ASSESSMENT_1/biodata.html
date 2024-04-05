@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil dan Peminjaman Buku</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div id="profile">
+        <img src="link_foto_anda.jpg" alt="Foto Anda">
+        <h2>Nama: rajendra</h2>
+        <p>NIM: 123456789</p>
+        <p>Kelas: D3SI-46-01</p>
+    </div>
+    <div id="peminjaman">
+        <input type="number" id="jumlah" placeholder="Jumlah Buku">
+        <select id="pilihanBuku">
+            <option value="sherlock">Sherlock</option>
+            <option value="lupin">Lupin</option>
+            <option value="aladin">Aladin</option>
+        </select>
+        <button onclick="pinjamBuku()">Pinjam Buku</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
